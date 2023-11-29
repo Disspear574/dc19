@@ -135,8 +135,8 @@ body {
 .slider-title_absolute {
 	font-family: Unbounded;
 	position: absolute;
-	left: 580px;
-	top: 16vh;
+	left: 30vw;
+	top: 8vw;
 }
 
 .slider-subtitle {
@@ -341,10 +341,6 @@ body {
 	}
 	.individual-title {
 		font-size: 4vw;
-	}
-
-	.slider-title_absolute {
-		display: none;
 	}
 	.sliderbtns {
 		top: -70px;
