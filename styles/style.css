@@ -59,6 +59,17 @@ body {
 	border: var(--accent-color-red) 1px solid;
 	transition: all 0.3s;
 }
+a {
+	transition: all 0.3s;
+}
+a:hover {
+	border: var(--accent-color-red) 1px solid;
+	transition: all 0.3s;
+}
+a:active {
+	background: grey;
+	transition: all 0.3s;
+}
 .btn:active,
 .prices-element-btn:active,
 .form-btn:active {
