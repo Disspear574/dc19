@@ -63,11 +63,11 @@ a {
 	transition: all 0.3s;
 }
 a:hover {
-	border: var(--accent-color-red) 1px solid;
+	color: var(--accent-color-red);
 	transition: all 0.3s;
 }
 a:active {
-	background: grey;
+	color: grey;
 	transition: all 0.3s;
 }
 .btn:active,
