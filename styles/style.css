@@ -42,10 +42,26 @@ body {
 }
 .btn {
 	background: var(--accent-color-red);
+	border: var(--accent-color-red) 1px solid;
 	font-weight: bolder;
 	padding: 18px;
 	border-radius: 50px;
 	cursor: pointer;
+	transition: all 0.3s;
+}
+.btn:hover,
+.prices-element-btn:hover,
+.form-btn:hover {
+	background: white;
+	border: var(--accent-color-red) 1px solid;
+	transition: all 0.3s;
+}
+.btn:active,
+.prices-element-btn:active,
+.form-btn:active {
+	background: grey;
+	border: white 1px solid;
+	transition: all 0.3s;
 }
 .background {
 	/* z-index: -2;
@@ -218,6 +234,7 @@ body {
 	font-size: 4em;
 }
 .prices-element-btn {
+	border: var(--accent-color-red) 1px solid;
 	margin-top: 20px;
 	align-self: start;
 	cursor: pointer;
@@ -268,6 +285,7 @@ body {
 	padding: 20px;
 	align-self: center;
 	cursor: pointer;
+	border: var(--accent-color-red) 1px solid;
 }
 .form-title {
 	margin-top: 200px;
