@@ -5,7 +5,10 @@
 }
 @font-face {
 	font-family: 'Hockey Club';
-	src: url('../fonts/hockey_club.ttf') format('truetype');
+	src: url('../fonts/hockey_club.eot?') format('eot'),
+		url('../fonts/hockey_club.woff') format('woff'),
+		url('../fonts/hockey_club.ttf') format('truetype'),
+		url('../fonts/hockey_club.svg#Hockey-Club') format('svg');
 	font-weight: bold;
 }
 :root {
